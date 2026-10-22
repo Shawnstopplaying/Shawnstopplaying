@@ -1,29 +1,44 @@
 <p align="center">
-  <img src="./header.svg" alt="Shawn Xinyu Wang — Microbiomes, omics, and research software" width="100%" />
+  <img src="./header.svg" alt="SxySCI — scientific plotting, omics, and microscopy. Created by Shawn Xinyu Wang. In development." width="100%" />
 </p>
 
-I explore microbial communities and build tools that make research easier to analyze, visualize, and share.
+<p align="center">
+  <strong>从数据到图像，让科研表达更清晰。</strong><br />
+  A desktop workspace for clear scientific figures.
+</p>
 
-关注微生物组与组学分析，也在开发更顺手的科研绘图和显微图像工具。
+<p align="center">
+  <b>Windows desktop</b> &nbsp; · &nbsp; 中文 / English &nbsp; · &nbsp; In development
+</p>
 
-### Research × software
+---
 
-| Explore | Build | Communicate |
+### Meet SxySCI
+
+I'm **Shawn Xinyu Wang**, the developer of **SxySCI**. I'm building a desktop workspace that brings scientific plotting, omics analysis, and microscopy image preparation into one place.
+
+我正在开发 **SxySCI**，将科研绘图、组学分析和显微图像整理连接成更顺手的桌面工作流。
+
+| Scientific figures | Omics workspace | Microscopy tools |
 | :--- | :--- | :--- |
-| Microbiomes, microbial ecology, and community diversity | Scientific visualization and microscopy workflows | Reproducible analyses, clear figures, and useful documentation |
+| **科研绘图与统计** | **组学分析与可视化** | **显微图像整理** |
+| Explore data, compare groups, and prepare clear figures. | Explore proteomics and lipidomics with visual analysis tools. | Arrange channels, coordinate shared ROIs, and compose image panels with **SxyCrop**. |
 
-### Selected projects
+### Built around the research workflow
 
-| Project | Focus |
-| :--- | :--- |
-| [**CDI**](https://github.com/Shawnstopplaying/CDI) | Microbiota restoration and antibiotic resistance in recurrent *C. difficile* infection. |
-| [**Salinity Gradient · 16S**](https://github.com/Shawnstopplaying/SalinityGradient_16S) | Exploring microbial diversity and community composition across a salinity gradient. |
-| [**Ontario report**](https://github.com/Shawnstopplaying/ontraio-report) | R-based data analysis with scripts, data, and figures. |
+**Import → Explore → Refine → Export**
 
-### On my workbench
+Bring tables and images into a visual workspace, adjust the presentation, and export figures for the next stage of your work. SxySCI supports Chinese and English interfaces; SxyCrop provides its microscopy workflow.
 
-Developing desktop tools for scientific plotting, omics analysis, and microscopy image preparation. Current work focuses on reliable workflows, careful validation, and a smoother path from data to figures.
+### Development status
 
-**Tools I work with:** Python · R · PySide6 · Git
+**Local validation is underway.** The public release and downloads will follow integration testing and user acceptance.
 
-<sub>From microbial communities to clearer scientific stories.</sub>
+目前正在进行本地集成与验收，尚未公开发布。页面中的图形仅为原创示意；演示素材使用独立生成的虚构数据，不包含原始实验数据。
+
+---
+
+<p align="center">
+  <sub>SxySCI · Created by Shawn Xinyu Wang<br />
+  Scientific tools, thoughtfully built.</sub>
+</p>
