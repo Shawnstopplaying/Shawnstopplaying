@@ -1,42 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
-  <title id="title">Shawn Xinyu Wang</title>
-  <desc id="desc">Microbiomes, omics, and research software. A teal scientific network illustration on a warm ivory background.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">SxySCI — scientific plotting, omics, and microscopy</title>
+  <desc id="desc">SxySCI, created by Shawn Xinyu Wang. In development. Abstract chart, heatmap, and image-region illustrations are entirely synthetic and do not represent experimental data.</desc>
   <defs>
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <circle cx="1" cy="1" r="1" fill="#16675e" opacity="0.10"/>
-    </pattern>
-    <linearGradient id="panel" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#0e534e"/>
-      <stop offset="1" stop-color="#163f42"/>
-    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#123E4B"/><stop offset="1" stop-color="#082D38"/></linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#67C5BC" opacity=".15"/></pattern>
+    <clipPath id="canvas"><rect width="1200" height="360" rx="20"/></clipPath>
   </defs>
-  <rect width="1200" height="330" rx="18" fill="#f5f4ee"/>
-  <rect width="1200" height="330" rx="18" fill="url(#grid)"/>
-  <path d="M840 0H1182Q1200 0 1200 18V312Q1200 330 1182 330H790Z" fill="url(#panel)"/>
-  <rect x="52" y="49" width="34" height="5" rx="2.5" fill="#d98265"/>
-  <text x="52" y="89" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" letter-spacing="3.5" fill="#316d67">RESEARCH / CODE / CURIOSITY</text>
-  <text x="49" y="159" font-family="Georgia,Times New Roman,serif" font-size="55" fill="#123f3e">Shawn Xinyu Wang</text>
-  <text x="52" y="203" font-family="Segoe UI,Arial,sans-serif" font-size="21" fill="#4c6460">Microbiomes, omics &amp; research software.</text>
-  <path d="M52 239H725" stroke="#cad9d0" stroke-width="1"/>
-  <text x="52" y="274" font-family="Segoe UI,Arial,sans-serif" font-size="15" letter-spacing="1" fill="#52716a">EXPLORING COMPLEXITY. BUILDING CLARITY.</text>
-  <g fill="none" stroke="#5aaba1" stroke-width="1.5" opacity="0.48">
-    <circle cx="1014" cy="157" r="111"/>
-    <circle cx="1014" cy="157" r="83" stroke-dasharray="3 7"/>
-    <path d="M913 183L952 100L1020 132L1090 84L1121 186L1046 239L982 208L913 183M952 100L982 208L1020 132L1046 239L1121 186L1020 132M982 208L1121 186"/>
-  </g>
-  <g fill="#76cabe" stroke="#123f3e" stroke-width="6">
-    <circle cx="913" cy="183" r="13"/>
-    <circle cx="952" cy="100" r="19"/>
-    <circle cx="1020" cy="132" r="26"/>
-    <circle cx="1090" cy="84" r="12"/>
-    <circle cx="1121" cy="186" r="18"/>
-    <circle cx="1046" cy="239" r="14"/>
-    <circle cx="982" cy="208" r="10"/>
-  </g>
-  <circle cx="1020" cy="132" r="9" fill="#e8eee0"/>
-  <circle cx="1090" cy="84" r="8" fill="#e4a083"/>
-  <circle cx="913" cy="183" r="8" fill="#e4a083"/>
-  <g fill="#9abcb0" font-family="Segoe UI,Arial,sans-serif" font-size="11" letter-spacing="2">
-    <text x="932" y="302">COMMUNITIES &amp; CONNECTIONS</text>
+  <g clip-path="url(#canvas)">
+    <rect width="1200" height="360" fill="#F5F3EC"/>
+    <path d="M792 0H1200V360H748Z" fill="url(#panel)"/>
+    <path d="M792 0H1200V360H748Z" fill="url(#dots)"/>
+    <path d="M748 360L792 0" stroke="#67C5BC" stroke-width="2" opacity=".4"/>
+    <g font-family="Segoe UI,Arial,sans-serif">
+      <rect x="52" y="42" width="26" height="4" rx="2" fill="#E78F6B"/>
+      <text x="92" y="49" font-size="13" font-weight="600" letter-spacing="2.4" fill="#3D686D">A WORKSPACE FOR SCIENTIFIC FIGURES</text>
+    </g>
+    <!-- Original SxySCI curve-and-points brand symbol. -->
+    <g transform="translate(48 86) scale(.46)">
+      <rect x="8" y="8" width="240" height="240" rx="58" fill="#123E4B"/>
+      <path d="M179 72 C160 52 110 48 84 70 C62 89 75 115 108 122 L149 132 C187 142 190 169 168 187 C143 209 95 201 75 182" fill="none" stroke="#FFFFFF" stroke-width="24" stroke-linecap="round"/>
+      <circle cx="179" cy="72" r="14" fill="#F2A65A"/>
+      <circle cx="129" cy="127" r="11" fill="#67C5BC" stroke="#123E4B" stroke-width="5"/>
+      <circle cx="75" cy="182" r="14" fill="#F2A65A"/>
+    </g>
+    <g font-family="Segoe UI,Arial,sans-serif">
+      <text x="185" y="177" font-size="92" font-weight="700" letter-spacing="-4" fill="#123E4B">SxySCI</text>
+      <text x="52" y="235" font-size="23" fill="#3C5E65">Scientific plotting. Omics. Microscopy.</text>
+      <path d="M52 271H687" stroke="#D3DDD6"/>
+      <text x="52" y="311" font-size="16" fill="#527178">Created by <tspan font-weight="600" fill="#123E4B">Shawn Xinyu Wang</tspan></text>
+      <text x="687" y="311" text-anchor="end" font-size="12" letter-spacing="1.5" fill="#527178">BUILDING WITH CARE</text>
+    </g>
+    <g font-family="Segoe UI,Arial,sans-serif">
+      <rect x="960" y="29" width="188" height="28" rx="14" fill="#244F59" stroke="#53747A"/>
+      <circle cx="979" cy="43" r="3.5" fill="#F2A65A"/>
+      <text x="994" y="47" font-size="11" font-weight="600" letter-spacing="1.6" fill="#F3E8D9">IN DEVELOPMENT</text>
+    </g>
+    <!-- Geometric illustrations only; no experimental measurements or pixels. -->
+    <rect x="837" y="79" width="311" height="125" rx="12" fill="#F5F3EC"/>
+    <text x="855" y="101" font-family="Segoe UI,Arial,sans-serif" font-size="10" font-weight="600" letter-spacing="1.6" fill="#527178">FIGURES</text>
+    <g fill="none" stroke="#DCE4DF" stroke-width="1"><path d="M860 119H1126M860 146H1126M860 173H1126"/></g>
+    <path d="M863 179L903 160L946 167L990 139L1032 148L1076 119L1120 127" fill="none" stroke="#287E82" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M863 166L903 174L946 151L990 159L1032 133L1076 143L1120 111" fill="none" stroke="#D78163" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#287E82" stroke="#F5F3EC" stroke-width="2"><circle cx="863" cy="179" r="4"/><circle cx="903" cy="160" r="4"/><circle cx="946" cy="167" r="4"/><circle cx="990" cy="139" r="4"/><circle cx="1032" cy="148" r="4"/><circle cx="1076" cy="119" r="4"/><circle cx="1120" cy="127" r="4"/></g>
+    <rect x="837" y="219" width="147" height="88" rx="12" fill="#244F59" stroke="#47727B"/>
+    <text x="851" y="240" font-family="Segoe UI,Arial,sans-serif" font-size="10" font-weight="600" letter-spacing="1.6" fill="#CAE4DE">OMICS</text>
+    <g>
+      <rect x="852" y="252" width="19" height="16" rx="2" fill="#529E9D"/><rect x="875" y="252" width="19" height="16" rx="2" fill="#8ECEC1"/><rect x="898" y="252" width="19" height="16" rx="2" fill="#D8DCC6"/><rect x="921" y="252" width="19" height="16" rx="2" fill="#EAB08B"/><rect x="944" y="252" width="19" height="16" rx="2" fill="#D78163"/>
+      <rect x="852" y="273" width="19" height="16" rx="2" fill="#D9DDC7"/><rect x="875" y="273" width="19" height="16" rx="2" fill="#EAB08B"/><rect x="898" y="273" width="19" height="16" rx="2" fill="#8ECEC1"/><rect x="921" y="273" width="19" height="16" rx="2" fill="#529E9D"/><rect x="944" y="273" width="19" height="16" rx="2" fill="#8ECEC1"/>
+    </g>
+    <rect x="999" y="219" width="149" height="88" rx="12" fill="#244F59" stroke="#47727B"/>
+    <text x="1013" y="240" font-family="Segoe UI,Arial,sans-serif" font-size="10" font-weight="600" letter-spacing="1.3" fill="#CAE4DE">MICROSCOPY</text>
+    <g fill="#67C5BC" opacity=".45">
+      <ellipse cx="1026" cy="268" rx="10" ry="6" transform="rotate(-28 1026 268)"/>
+      <ellipse cx="1066" cy="274" rx="12" ry="7" transform="rotate(24 1066 274)"/>
+      <ellipse cx="1109" cy="261" rx="11" ry="6" transform="rotate(-36 1109 261)"/>
+      <ellipse cx="1127" cy="283" rx="7" ry="5"/><ellipse cx="1034" cy="290" rx="6" ry="4"/>
+    </g>
+    <rect x="1045" y="253" width="44" height="39" rx="2" fill="none" stroke="#F2A65A" stroke-width="1.5"/>
+    <path d="M1045 261V253H1053M1081 253H1089V261M1089 284V292H1081M1053 292H1045V284" fill="none" stroke="#F3D8AF" stroke-width="2.5"/>
+    <text x="1148" y="333" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="9" letter-spacing="1.6" fill="#86AAA9">SYNTHETIC ILLUSTRATIONS</text>
   </g>
 </svg>
