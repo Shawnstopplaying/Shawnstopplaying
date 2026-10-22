@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">Shawn Xinyu Wang</title>
+  <desc id="desc">Microbiomes, omics, and research software. A teal scientific network illustration on a warm ivory background.</desc>
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#16675e" opacity="0.10"/>
+    </pattern>
+    <linearGradient id="panel" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0e534e"/>
+      <stop offset="1" stop-color="#163f42"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="330" rx="18" fill="#f5f4ee"/>
+  <rect width="1200" height="330" rx="18" fill="url(#grid)"/>
+  <path d="M840 0H1182Q1200 0 1200 18V312Q1200 330 1182 330H790Z" fill="url(#panel)"/>
+  <rect x="52" y="49" width="34" height="5" rx="2.5" fill="#d98265"/>
+  <text x="52" y="89" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" letter-spacing="3.5" fill="#316d67">RESEARCH / CODE / CURIOSITY</text>
+  <text x="49" y="159" font-family="Georgia,Times New Roman,serif" font-size="55" fill="#123f3e">Shawn Xinyu Wang</text>
+  <text x="52" y="203" font-family="Segoe UI,Arial,sans-serif" font-size="21" fill="#4c6460">Microbiomes, omics &amp; research software.</text>
+  <path d="M52 239H725" stroke="#cad9d0" stroke-width="1"/>
+  <text x="52" y="274" font-family="Segoe UI,Arial,sans-serif" font-size="15" letter-spacing="1" fill="#52716a">EXPLORING COMPLEXITY. BUILDING CLARITY.</text>
+  <g fill="none" stroke="#5aaba1" stroke-width="1.5" opacity="0.48">
+    <circle cx="1014" cy="157" r="111"/>
+    <circle cx="1014" cy="157" r="83" stroke-dasharray="3 7"/>
+    <path d="M913 183L952 100L1020 132L1090 84L1121 186L1046 239L982 208L913 183M952 100L982 208L1020 132L1046 239L1121 186L1020 132M982 208L1121 186"/>
+  </g>
+  <g fill="#76cabe" stroke="#123f3e" stroke-width="6">
+    <circle cx="913" cy="183" r="13"/>
+    <circle cx="952" cy="100" r="19"/>
+    <circle cx="1020" cy="132" r="26"/>
+    <circle cx="1090" cy="84" r="12"/>
+    <circle cx="1121" cy="186" r="18"/>
+    <circle cx="1046" cy="239" r="14"/>
+    <circle cx="982" cy="208" r="10"/>
+  </g>
+  <circle cx="1020" cy="132" r="9" fill="#e8eee0"/>
+  <circle cx="1090" cy="84" r="8" fill="#e4a083"/>
+  <circle cx="913" cy="183" r="8" fill="#e4a083"/>
+  <g fill="#9abcb0" font-family="Segoe UI,Arial,sans-serif" font-size="11" letter-spacing="2">
+    <text x="932" y="302">COMMUNITIES &amp; CONNECTIONS</text>
+  </g>
+</svg>
