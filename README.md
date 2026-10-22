@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./header.svg" alt="SxySCI — scientific plotting, omics, and microscopy. Created by Shawn Xinyu Wang. In development." width="100%" />
+  <img src="https://raw.githubusercontent.com/Shawnstopplaying/Shawnstopplaying/a9fe184367bcc092ebfd2c6caa008411a3804f5a/header.svg" alt="SxySCI — scientific plotting, omics, and microscopy. Created by Shawn Xinyu Wang. In development." width="100%" />
 </p>
 
 <p align="center">
